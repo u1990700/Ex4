@@ -1,9 +1,24 @@
-[gd_scene format=3 uid="uid://de52wvhkjie5b"]
+[gd_scene load_steps=5 format=3 uid="uid://de52wvhkjie5b"]
+
+[ext_resource type="Texture2D" uid="uid://bxmdofa5x0cgr" path="res://Assets/taul.png" id="1_wpyqc"]
+[ext_resource type="Script" path="res://Scripts/tauler.gd" id="2_1yq73"]
+[ext_resource type="Texture2D" uid="uid://cy4bbojr2gki" path="res://Assets/sphere-11.png" id="2_t1n80"]
+[ext_resource type="Texture2D" uid="uid://5vnalq7m107d" path="res://Assets/sphere-14.png" id="3_6wwa3"]
 
 [node name="Tauler" type="TextureRect"]
+offset_right = 775.0
+offset_bottom = 649.0
+texture = ExtResource("1_wpyqc")
+script = ExtResource("2_1yq73")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="FitxaOrd" type="Sprite2D" parent="."]
+position = Vector2(1193, 588)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_t1n80")
 
 [node name="FitxaHuma" type="Sprite2D" parent="."]
+position = Vector2(1317, 583)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("3_6wwa3")
