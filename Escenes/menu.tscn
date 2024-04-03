@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b3wbxsjes2nrw"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Inici" type="Button" parent="."]
+layout_mode = 0
+offset_left = 373.0
+offset_top = 91.0
+offset_right = 513.0
+offset_bottom = 129.0
+text = "Inici"
+
+[node name="Tutorial" type="Button" parent="."]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 152.0
+offset_right = 510.0
+offset_bottom = 186.0
+text = "Tutorial"
